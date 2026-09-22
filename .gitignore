@@ -427,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# tModLoader specific
+*.tmod
+*.dll.backup
+build.txt.bak
+.vscode/
