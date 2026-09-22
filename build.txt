@@ -1,0 +1,3 @@
+displayName = Fissure Mod
+author = Shmil3
+version = 0.1

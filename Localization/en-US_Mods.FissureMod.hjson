@@ -1,0 +1,92 @@
+Items: {
+	FissureShard: {
+		DisplayName: Fissure Shard
+		Tooltip: ""
+	}
+
+	FissurePickaxe: {
+		DisplayName: Fissure Pickaxe
+		Tooltip: ""
+	}
+
+	GelTitanSummon: {
+		DisplayName: Gel Titan Summon
+		Tooltip: ""
+	}
+
+	Fissure_Hammaxe: {
+		DisplayName: Fissure Hammaxe
+		Tooltip: ""
+	}
+
+	FissureYoyo: {
+		DisplayName: Fissure Yoyo
+		Tooltip: ""
+	}
+
+	Shard_Whistle: {
+		DisplayName: Shard Whistle
+		Tooltip: Suummons Shadozaurus, Best faught on a single long platform
+	}
+
+	Shard_Saber: {
+		DisplayName: Shard Saber
+		Tooltip: ""
+	}
+
+	ShardshotBow: {
+		DisplayName: Shardshot Bow
+		Tooltip: Every 3rd shot spawn a special Fissure Arrow
+	}
+
+	ShardRepeater: {
+		DisplayName: Shard Repeater
+		Tooltip: Every 3rd shot spawn a special Fissure Bullet
+	}
+
+	ShardStaff: {
+		DisplayName: Shard Staff
+		Tooltip: ""
+	}
+
+	ShardKunai: {
+		DisplayName: Shard Kunai
+		Tooltip: ""
+	}
+
+	ShardEmulet: {
+		DisplayName: Shard Emulet
+		Tooltip: Killing an enemy has a 50% chance to spawn 3 shards
+	}
+
+	GlacierBar: {
+		DisplayName: Glacier Bar
+		Tooltip: ""
+	}
+
+	GlacierOre: {
+		DisplayName: Glacier Ore
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	FissureSlime.DisplayName: Fissure Slime
+	ShardboundBasilisk.DisplayName: Shardbound Basilisk
+	Shardozaurus.DisplayName: Shardozaurus
+}
+
+Projectiles: {
+	FissureZap.DisplayName: Fissure Zap
+	ShardboundBasiliskProjectile.DisplayName: Shardbound Basilisk Projectile
+	FissureYoyoProj.DisplayName: Fissure Yoyo Proj
+	Shardozaurus_Wave.DisplayName: Shardozaurus_ Wave
+	Shard_Saber_Projectile.DisplayName: Shard_ Saber_ Projectile
+	FissureArrow.DisplayName: Fissure Arrow
+	FissureArrowProjectile.DisplayName: Fissure Arrow Projectile
+	ShardBulletProjectile.DisplayName: Shard Bullet Projectile
+	ShardStaffProjectile.DisplayName: Shard Staff Projectile
+	ShardKunaiProjectile.DisplayName: Shard Kunai Projectile
+}
+
+Tiles.GlacierOreTile.MapEntry: Glacier Ore Tile

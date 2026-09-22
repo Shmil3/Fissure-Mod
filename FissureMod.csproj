@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+
+  <PropertyGroup>
+    <AssemblyName>FissureMod</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <!-- This prevents the 1.3 targets from polluting modern compiler inputs -->
+  <ItemGroup>
+    <Compile Remove="**/*.png" />
+    <Compile Remove="**/*.hjson" />
+    <Compile Remove="**/*.txt" />
+    <Compile Remove="**/*.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\Common\Players\" />
+    <Folder Include="Content\Items\Ammo\Arrows\" />
+    <Folder Include="Content\Items\BossProjectiles\FissureTitan\" />
+    <Folder Include="Content\Items\Weapons\Magic\Books\" />
+    <Folder Include="Content\Items\Weapons\Magic\Other\" />
+    <Folder Include="Content\Items\Weapons\Ranged\Guns\" />
+    <Folder Include="Content\Projectiles\Bullets\" />
+  </ItemGroup>
+</Project>
